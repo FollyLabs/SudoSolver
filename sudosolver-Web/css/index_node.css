@@ -1,0 +1,44 @@
+
+/* ----- only for index page - home ----------*/
+
+#GridRuleHolder
+{
+	width:100%; 
+	height:80%;
+	float:left;
+}
+
+#GridWindow
+{	width:60%; 
+	height:100%;
+	float:left;
+	text-align : center;
+}
+
+#RuleWindow
+{
+	width:35%; 
+	float:right;
+	text-align : justify;
+}
+
+.button
+{
+	text-align: center;
+	height : 40px;
+	width : 200px;
+	padding-top: 5px;
+	opacity: 1;
+	font: 16pt 'Monda-Regular';
+	background: #4c97be;
+	color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}	
+
+.button:hover
+{
+	opacity: 0.8;
+}
+
+

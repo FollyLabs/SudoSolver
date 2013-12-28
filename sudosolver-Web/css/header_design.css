@@ -1,0 +1,75 @@
+/* header stuff */
+#topheader {
+	top:0;
+	left:0;
+	height: 40px;
+	width:100%;
+	background: #E6E6E6;
+	position: fixed;
+	color: Black;
+	box-shadow: 0px 0px 5px #222222;
+	transition: top 300ms;
+	-webkit-transition: top 300ms;
+	-moz-transition: top 300ms;
+	-o-transition: top 300ms;
+}
+
+
+/* form design */
+
+#org_name{   
+    	width:80%;
+	font: 20px 'UnicaOne-Regular';
+	text-align:left;
+	float:left;
+	position: relative;
+	padding-top: 5px;
+	opacity: 1;
+}
+#org_name:hover
+{
+	cursor: pointer;
+}
+
+#logout-button {
+    	width:10%;
+	position: relative;
+	height: 32px;
+	opacity: 1;
+	padding-top: 9px;
+	font: 16px 'UnicaOne-Regular';
+	float:right;
+	text-align:right;
+}
+
+#login-button {
+    	width:10%;
+	position: relative;
+	height: 32px;
+	opacity: 1;
+	padding-top: 9px;
+	font: 16px 'UnicaOne-Regular';
+		float:right;
+	text-align:right;
+
+}
+
+#register-button {
+	position: relative;
+	height: 32px;
+	width:10%;
+	padding-top: 9px;
+	float:right;
+	opacity: 1;
+	text-align:left;
+
+}
+
+#register-button:hover,
+#login-button:hover,
+#logout-button:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+
