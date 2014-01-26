@@ -1,0 +1,9 @@
+#!/bin/sh
+cd `dirname $0`
+if [ -n "$JAVA_HOME" ]; then
+  $JAVA_HOME/bin/java -jar ./SudoSolverV0.1
+$*
+else
+  java -jar ./SudoSolverV0.1 $*
+fi
+cd $OLDPWD

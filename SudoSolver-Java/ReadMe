@@ -1,0 +1,17 @@
+1. Ubuntu
+
+double click SudoSolver.sh and click Run.
+
+2. Windows
+
+double clik Sudo.bat
+(env variable Java_ home should be set)
+
+
+its our first version , so congratulation !!
+But Some Modification is required on this version 
+
+1. down ,up , right and left key listen is to be introduce.
+2. length of text box and their data validation is required, till now if u enter "45" or "abc" it wil take without error but internally will convert it into black box.
+
+3. Reset and How to use button is to be introduce.
